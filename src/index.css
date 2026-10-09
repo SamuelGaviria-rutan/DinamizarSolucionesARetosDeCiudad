@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --rn-deep-green: #253d36;
+  --rn-aquamarine: #00b8a3;
+  --rn-lime: #c0d400;
+  --rn-white: #ffffff;
+}
+
+@theme {
+  --font-sans: "Source Sans Pro", sans-serif;
+  --font-display: "Neue Haas Grotesk Display", "Source Sans Pro", sans-serif;
+  --color-brand: var(--rn-deep-green);
+  --color-futumed: var(--rn-aquamarine);
+  --color-talento: var(--rn-lime);
+  --color-white: var(--rn-white);
+}
+
+html {
+  background: var(--rn-white);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--rn-aquamarine);
+  color: var(--rn-deep-green);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

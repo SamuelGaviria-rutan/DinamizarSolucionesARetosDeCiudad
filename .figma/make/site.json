@@ -1,0 +1,10 @@
+{
+  "description": "This web application presents a clean, user-friendly interface for exploring city challenge solutions, featuring two interactive cards for easy navigation.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
